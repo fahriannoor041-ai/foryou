@@ -47,7 +47,8 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 50% 15%;
+            /* Posisi agar wajah kalian pas di tengah kotak */
+            object-position: 50% 15% !important;
         }
 
         .info h2 {
@@ -108,12 +109,6 @@
             color: #fff;
             box-shadow: 0 10px 40px rgba(0,0,0,0.25);
             font-family: 'Georgia', serif;
-            animation: fadeUp 0.8s ease both;
-        }
-
-        @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to   { opacity: 1; transform: translateY(0); }
         }
 
         .msg-label {
@@ -165,7 +160,6 @@
 
 <body>
 
-    <!-- MUSIC PLAYER -->
     <div class="player-card">
         <div class="album-art">
             <img src="girl.jpg" alt="Foto">
@@ -195,23 +189,14 @@
         </div>
     </div>
 
-    <!-- PESAN ULANG TAHUN -->
     <div class="message-card">
         <div class="msg-label">✦ Sebuah Pesan Untukmu</div>
-        <div class="msg-title">Selamat Ulang Tahun  SELFIANA🎂</div>
+        <div class="msg-title">Selamat Ulang Tahun SELFIANA🎂</div>
 
         <hr class="msg-divider">
 
         <p class="msg-paragraph">
-            Hari ini, semesta tidak hanya mencatat pertambahan angka pada usiamu, tetapi juga merayakan ketangguhan jiwa yang selama ini kau bawa dalam diam. Selamat ulang tahun. Di pundakmu, mungkin ada mimpi-mimpi yang terkadang terasa berat, dan di matamu, mungkin ada lelah yang jarang kau ceritakan. Namun, ingatlah bahwa permata hanya akan berkilau setelah ditempa tekanan, dan bunga yang paling harum adalah ia yang berani mekar di tengah terjangan angin.
-        </p>
-
-        <p class="msg-paragraph">
-            Jangan pernah gentar pada dunia yang terkadang riuh dan tak menentu. Jika hari-hari mendatang terasa seperti tanjakan yang melelahkan, jadikan setiap helai napasmu sebagai sajak keberanian. Kau lebih dari sekadar rupa yang indah; kau adalah perpaduan antara kecerdasan, doa-doa yang terkabul, dan semangat yang tak boleh padam oleh kegagalan kecil.
-        </p>
-
-        <p class="msg-paragraph">
-            Teruslah melangkah, meski terkadang harus perlahan. Jangan bandingkan kecepatanmu dengan orang lain, karena setiap bunga memiliki musim mekar yang berbeda. Jadikan usia baru ini sebagai panggung di mana kau adalah tokoh utamanya — yang berani menulis plotnya sendiri, yang tangguh menghadapi konflik, dan yang selalu menemukan jalan pulang menuju bahagia.
+            Hari ini, semesta tidak hanya mencatat pertambahan angka pada usiamu, tetapi juga merayakan ketangguhan jiwa yang selama ini kau bawa dalam diam. Selamat ulang tahun.
         </p>
 
         <p class="msg-paragraph">
